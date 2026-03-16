@@ -1,0 +1,31 @@
+package com.company;
+import java.util.Scanner;
+ public class calculator {
+    public static void main(String[] args) {
+         System.out.println(" enter two numbers");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("choose the option");
+        System.out.println("1 - ADDITION");
+        System.out.println("2 - SUBTRACTION");
+        System.out.println("3 - MULTIPLICATION");
+        System.out.println("4 - DIVISION");
+        System.out.println("5 - REMAINDER");
+        int choice = sc.nextInt();
+    switch(choice){
+        case 1 : System.out.println( "addition" + (a + b));
+        break;
+         case 2 : System.out.println( "subtraction "+ (a - b));
+        break;
+         case 3 : System.out.println( " multiplication " + (a * b));
+        break;
+         case 4 : System.out.println( " division " + (a / b));
+        break;
+         case 5 : System.out.println( " remainder " + (a % b));
+        break;
+        default : System.out.println("invalid operator");
+    }
+    }
+} 
+// 

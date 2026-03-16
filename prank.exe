@@ -1,0 +1,17 @@
+ 9 feb 2026
+zsh - uses kali
+/var/www/html - path for apachee server
+sudo systemctl start apache2  - apcahe2 on 
+httrack -w (websiteurl)
+sudo mv(websiteurl) /var/www/html
+go to browser enter your ip/url
+http status code
+
+
+
+
+
+
+
+
+

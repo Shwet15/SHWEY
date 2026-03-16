@@ -1,0 +1,30 @@
+ 9 feb 2026
+zsh - uses kali
+/var/www/html - path for apachee server
+sudo systemctl start apache2  - apcahe2 on 
+httrack -w (websiteurl)
+sudo mv(websiteurl) /var/www/html
+go to browser enter your ip/url
+http status code
+
+10 feb 2026
+ACTIVE SCANNING
+
+first start with host scanning
+host discover - nmap, arp scan,
+sudo netdiscover -r(10.10.0.0/21)
+ sudo arp-scan --localnet
+ttl - 128 for window and 64 for linux (time to live)
+nmap -Pn(ip) - PORT SCANNING AND HOST BLOCK DISCOVERY
+
+
+
+
+
+
+
+
+
+
+
+

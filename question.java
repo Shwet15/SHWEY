@@ -1,0 +1,24 @@
+import java.util.*;
+public class question{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the week(1-7)");
+        int week = sc.nextInt();
+        switch (week){
+
+           case 1 : 
+                   System.out.println("monday");
+                break;
+           case 2 :  
+                 System.out.println("tuesday");
+               break;
+           case 3 :    
+                 System.out.println("tuesday");
+               break;
+           case 4 :
+
+        }
+    }
+    
+
+}
